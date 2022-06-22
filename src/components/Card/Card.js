@@ -36,7 +36,7 @@ function Card({ country, region }) {
           <p className="info-text">o3, no2, co2</p>
           <span>
             <FiThermometer />
-            <FiDroplet />
+            <FiDroplet className="droplet" />
           </span>
         </div>
       </div>
