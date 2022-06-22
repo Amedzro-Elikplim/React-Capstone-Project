@@ -1,7 +1,7 @@
 const initialState = [
-  { country: 'Ghana', region: 'West Africa' },
-  { country: 'Ghana', region: 'West Africa' },
-  { country: 'Ghana', region: 'West Africa' },
+  { id: 1, country: 'Ghana', region: 'West Africa' },
+  { id: 2, country: 'Ghana', region: 'West Africa' },
+  { id: 3, country: 'Ghana', region: 'West Africa' },
 ];
 
 const reducer = (state = initialState, action) => {
