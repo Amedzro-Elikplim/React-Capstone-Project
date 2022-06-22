@@ -1,5 +1,6 @@
 import './nav.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi';
 
 function Nav() {
@@ -15,10 +16,10 @@ function Nav() {
         <FiMenu />
       </span>
       <div className="collapse navbar-collapse nav-content" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item">Weather</li>
-          <li className="nav-item">Pollution per country</li>
-          <li className="nav-item">Weather maps</li>
+        <ul className="navbar-nav links">
+          <Link to="/" className="nav-item item">Weather</Link>
+          <Link to="/pollution" className="nav-item item">Pollution per country</Link>
+          <Link to="/map" className="nav-item item">Weather maps</Link>
         </ul>
       </div>
     </nav>
