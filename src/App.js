@@ -1,8 +1,10 @@
+import Card from './components/Card/Card';
+
 function App() {
   return (
     <div>
-      root
-     </div>
+      <Card />
+    </div>
   );
 }
 
