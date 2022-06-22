@@ -1,5 +1,6 @@
 .icon-container {
     gap: 15px;
+    margin-top: 10px;
 }
 
 .card-body-container {
@@ -11,4 +12,8 @@
 .info {
     border-left: 2px solid rgb(189, 189, 189);
     padding-left: 20px;
+}
+
+.info-text {
+    color: rgb(175, 175, 175);
 }
