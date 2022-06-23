@@ -11,9 +11,11 @@ import {
 } from 'react-icons/fi';
 import PropTypes from 'prop-types';
 
-function Card({ country, region }) {
+function Card({
+  country, region, onClick, onKeyDown,
+}) {
   return (
-    <div className="card m-3">
+    <div className="card m-3" aria-hidden="true" onClick={onClick} onKeyDown={onKeyDown}>
       <div className="card-body d-flex justify-content-center card-body-container">
         <div>
           <div className="d-flex align-items-center">
@@ -47,6 +49,8 @@ function Card({ country, region }) {
 Card.propTypes = {
   country: PropTypes.string.isRequired,
   region: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+  onKeyDown: PropTypes.func.isRequired,
 };
 
 export default Card;
