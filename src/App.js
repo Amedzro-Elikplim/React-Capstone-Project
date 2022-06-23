@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<Weather />} />
         <Route path="/pollution" element={<Pollution />} />
         <Route path="/map" element={<WeatherMap />} />
-        <Route path="/weather/details" element={<WeatherDetails />} />
+        <Route path="/weatherdetails" element={<WeatherDetails />} />
       </Routes>
     </>
   );
