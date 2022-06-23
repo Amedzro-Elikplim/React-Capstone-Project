@@ -7,9 +7,8 @@ function Weather() {
   const countries = useSelector((state) => state.weather);
   const navigate = useNavigate();
 
-  function navigateToDetails() {
-    console.log('hello');
-    navigate('/weatherdetails');
+  function navigateToDetails(id) {
+    navigate('/weatherdetails', { state: id });
   }
 
   return (
@@ -19,7 +18,7 @@ function Weather() {
           key={country.id}
           country={country.country}
           region={country.region}
-          onClick={() => navigateToDetails()}
+          onClick={() => navigateToDetails(country.id)}
           onKeyDown={() => navigateToDetails()}
         />
       ))}
