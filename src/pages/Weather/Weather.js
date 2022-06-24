@@ -4,13 +4,14 @@ import { useNavigate } from 'react-router-dom';
 import Card from '../../components/Card/Card';
 
 function Weather() {
-  const countries = useSelector((state) => state.weather);
   const navigate = useNavigate();
 
   function navigateToDetails(id) {
     navigate('/weatherdetails', { state: id });
   }
 
+  const countries = useSelector((state) => state.countries);
+  console.log(countries);
   return (
     <>
       {countries.map((country) => (
