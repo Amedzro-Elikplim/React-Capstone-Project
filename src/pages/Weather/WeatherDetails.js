@@ -7,16 +7,18 @@ function WeatherDetails() {
   const location = useLocation();
   const dispatch = useDispatch();
   const id = location.state;
+  console.log(id);
+
+  const details = useSelector((state) => state.weather);
+  console.log(details);
 
   useEffect(() => {
     dispatch(FETCHTHUNK(id));
   }, []);
 
-  const details = useSelector((state) => state.weather);
-  console.log(details);
   return (
     <div>
-      <h1>Details</h1>
+      <h1>{details.base}</h1>
     </div>
   );
 }
