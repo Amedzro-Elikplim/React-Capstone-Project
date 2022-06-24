@@ -1,7 +1,8 @@
-import { FETCH_WEATHER } from './Actions';
+import { FETCH_WEATHER, DISPLAY_COUNTRIES } from './Actions';
 import WEATHER_API from '../../api.config';
 
 export const FETCH = (data) => ({ type: FETCH_WEATHER, payload: data });
+export const DISPLAY = () => ({ type: DISPLAY_COUNTRIES, payload: null });
 
 export const FETCHTHUNK = (id) => async (dispatch, getState) => {
   try {
