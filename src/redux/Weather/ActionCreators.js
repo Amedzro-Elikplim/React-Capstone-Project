@@ -1,14 +1,18 @@
-import { DISPLAY_COUNTRIES } from './Actions';
+import { FETCH_WEATHER } from './Actions';
 import WEATHER_API from '../../api.config';
 
-export const DISPLAY = () => ({ type: DISPLAY_COUNTRIES });
-// export const FETCH = (id) => ({ type: FETCH_WEATHER, payload: id });
+export const FETCH = (data) => ({ type: FETCH_WEATHER, payload: data });
 
-export const FETCH = () => async (lat, log) => {
-    try {
-        const weather = await fetch(WEATHER_API(lat, log));
-        console.log(weather);
-    } catch (error) {
-        throw new Error(error);
-    }
+export const FETCHTHUNK = (id) => async (dispatch, getState) => {
+  try {
+    const country = getState().weather.filter((item) => item.id === id);
+    const { latitude, longitude } = country[0];
+
+    const weather = await fetch(WEATHER_API(latitude, longitude));
+    const data = await weather.json();
+
+    dispatch(FETCH(data));
+  } catch (error) {
+    throw new Error(error);
+  }
 };
