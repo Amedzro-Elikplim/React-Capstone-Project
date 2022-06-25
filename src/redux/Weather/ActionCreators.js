@@ -6,14 +6,30 @@ export const DISPLAY = () => ({ type: DISPLAY_COUNTRIES, payload: null });
 
 export const FETCHTHUNK = (id) => async (dispatch, getState) => {
   try {
-    const country = getState().weather.filter((item) => item.id === id);
+    const country = getState().countries.filter((item) => item.id === id);
     const { latitude, longitude } = country[0];
 
     const weather = await fetch(WEATHER_API(latitude, longitude));
     const data = await weather.json();
 
-    dispatch(FETCH(data));
+    const dataObj = {
+      name: data.name,
+      lat: data.coord.lat,
+      log: data.coord.lon,
+      temp: data.main.temp,
+      pressure: data.main.pressure,
+      humidity: data.main.humidity,
+      wind_speed: data.wind.speed,
+      sunrise: data.sys.sunrise,
+      sunset: data.sys.sunset,
+      feels_like: data.main.feels_like,
+      description: data.weather[0].description,
+    };
+
+    console.log(dataObj);
+
+    dispatch(FETCH(dataObj));
   } catch (error) {
-    throw new Error(error);
+    console.log(error);
   }
 };
