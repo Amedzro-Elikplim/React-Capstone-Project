@@ -18,8 +18,6 @@ function Nav() {
       <div className="collapse navbar-collapse nav-content" id="navbarNav">
         <ul className="navbar-nav links">
           <Link to="/" className="nav-item item">Weather</Link>
-          <Link to="/pollution" className="nav-item item">Pollution per country</Link>
-          <Link to="/map" className="nav-item item">Weather maps</Link>
         </ul>
       </div>
     </nav>
