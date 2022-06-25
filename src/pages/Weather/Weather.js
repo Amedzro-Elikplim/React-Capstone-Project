@@ -11,7 +11,6 @@ function Weather() {
   }
 
   const countries = useSelector((state) => state.countries);
-  console.log(countries);
   return (
     <>
       {countries.map((country) => (
