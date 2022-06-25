@@ -26,8 +26,6 @@ export const FETCHTHUNK = (id) => async (dispatch, getState) => {
       description: data.weather[0].description,
     };
 
-    console.log(dataObj);
-
     dispatch(FETCH(dataObj));
   } catch (error) {
     console.log(error);
