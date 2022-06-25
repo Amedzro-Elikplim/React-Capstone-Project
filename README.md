@@ -2,6 +2,8 @@
 
 # Weather app
 > A simple weather app that displays realtime weather data for cities around the world.
+
+
 ![screenshot](./screenshot.JPG)
 
 Additional description about the project and its features.
