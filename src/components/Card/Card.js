@@ -9,15 +9,21 @@ import {
   FiThermometer,
   FiDroplet,
 } from 'react-icons/fi';
+import PropTypes from 'prop-types';
 
-function Card() {
+function Card({
+  country, region, onClick, onKeyDown,
+}) {
   return (
-    <div className="card m-3">
+    <div className="card m-3" aria-hidden="true" onClick={onClick} onKeyDown={onKeyDown}>
       <div className="card-body d-flex justify-content-center card-body-container">
         <div>
           <div className="d-flex align-items-center">
-            <h3 className="card-title">Ghana, </h3>
-            <p className="card-subtitle">West Africa</p>
+            <h3 className="card-title">
+              {country}
+              ,
+            </h3>
+            <p className="card-subtitle">{region}</p>
           </div>
 
           <div className="d-flex icon-container">
@@ -32,12 +38,19 @@ function Card() {
           <p className="info-text">o3, no2, co2</p>
           <span>
             <FiThermometer />
-            <FiDroplet />
+            <FiDroplet className="droplet" />
           </span>
         </div>
       </div>
     </div>
   );
 }
+
+Card.propTypes = {
+  country: PropTypes.string.isRequired,
+  region: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+  onKeyDown: PropTypes.func.isRequired,
+};
 
 export default Card;

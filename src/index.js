@@ -2,13 +2,21 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { HashRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './redux/ConfigureStore';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <App />,
+  <Provider store={store}>
+    <HashRouter>
+      <App />
+    </HashRouter>
+    ,
+  </Provider>,
 );
 
 // If you want to start measuring performance in your app, pass a function

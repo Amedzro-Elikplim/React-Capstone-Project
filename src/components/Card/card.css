@@ -5,7 +5,6 @@
 
 .card-body-container {
   gap: 50px;
-  flex-wrap: wrap;
 }
 
 .info {
@@ -15,4 +14,8 @@
 
 .info-text {
   color: rgb(175, 175, 175);
+}
+
+.droplet {
+  color: #178da8;
 }

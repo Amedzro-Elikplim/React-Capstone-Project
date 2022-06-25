@@ -1,0 +1,1629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should render App page 1`] = `
+Array [
+  <nav
+    className="nav"
+  >
+    <span
+      aria-controls="navbarNav"
+      className="navbar-toggler button-toggler"
+      data-bs-target="#navbarNav"
+      data-bs-toggle="collapse"
+      type="button"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="3"
+          x2="21"
+          y1="12"
+          y2="12"
+        />
+        <line
+          x1="3"
+          x2="21"
+          y1="6"
+          y2="6"
+        />
+        <line
+          x1="3"
+          x2="21"
+          y1="18"
+          y2="18"
+        />
+      </svg>
+    </span>
+    <div
+      className="collapse navbar-collapse nav-content"
+      id="navbarNav"
+    >
+      <ul
+        className="navbar-nav links"
+      >
+        <a
+          className="nav-item item"
+          href="#/"
+          onClick={[Function]}
+        >
+          Weather
+        </a>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    aria-hidden="true"
+    className="card m-3"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    <div
+      className="card-body d-flex justify-content-center card-body-container"
+    >
+      <div>
+        <div
+          className="d-flex align-items-center"
+        >
+          <h3
+            className="card-title"
+          >
+            Ghana
+            ,
+          </h3>
+          <p
+            className="card-subtitle"
+          >
+            West Africa
+          </p>
+        </div>
+        <div
+          className="d-flex icon-container"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"
+            />
+            <polyline
+              points="13 11 9 17 15 17 11 23"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="8"
+              x2="8"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="8"
+              x2="8"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="15"
+              y2="17"
+            />
+            <path
+              d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="5"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="1"
+              y2="3"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="4.22"
+              y2="5.64"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="18.36"
+              y2="19.78"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="19.78"
+              y2="18.36"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="5.64"
+              y2="4.22"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17 18a5 5 0 0 0-10 0"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="9"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="10.22"
+              y2="11.64"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="11.64"
+              y2="10.22"
+            />
+            <line
+              x1="23"
+              x2="1"
+              y1="22"
+              y2="22"
+            />
+            <polyline
+              points="8 6 12 2 16 6"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="info"
+      >
+        <p
+          className="info-text"
+        >
+          o3, no2, co2
+        </p>
+        <span>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"
+            />
+          </svg>
+          <svg
+            className="droplet"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    aria-hidden="true"
+    className="card m-3"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    <div
+      className="card-body d-flex justify-content-center card-body-container"
+    >
+      <div>
+        <div
+          className="d-flex align-items-center"
+        >
+          <h3
+            className="card-title"
+          >
+            Nigeria
+            ,
+          </h3>
+          <p
+            className="card-subtitle"
+          >
+            West Africa
+          </p>
+        </div>
+        <div
+          className="d-flex icon-container"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"
+            />
+            <polyline
+              points="13 11 9 17 15 17 11 23"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="8"
+              x2="8"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="8"
+              x2="8"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="15"
+              y2="17"
+            />
+            <path
+              d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="5"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="1"
+              y2="3"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="4.22"
+              y2="5.64"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="18.36"
+              y2="19.78"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="19.78"
+              y2="18.36"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="5.64"
+              y2="4.22"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17 18a5 5 0 0 0-10 0"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="9"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="10.22"
+              y2="11.64"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="11.64"
+              y2="10.22"
+            />
+            <line
+              x1="23"
+              x2="1"
+              y1="22"
+              y2="22"
+            />
+            <polyline
+              points="8 6 12 2 16 6"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="info"
+      >
+        <p
+          className="info-text"
+        >
+          o3, no2, co2
+        </p>
+        <span>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"
+            />
+          </svg>
+          <svg
+            className="droplet"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    aria-hidden="true"
+    className="card m-3"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    <div
+      className="card-body d-flex justify-content-center card-body-container"
+    >
+      <div>
+        <div
+          className="d-flex align-items-center"
+        >
+          <h3
+            className="card-title"
+          >
+            UK
+            ,
+          </h3>
+          <p
+            className="card-subtitle"
+          >
+            Europe
+          </p>
+        </div>
+        <div
+          className="d-flex icon-container"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"
+            />
+            <polyline
+              points="13 11 9 17 15 17 11 23"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="8"
+              x2="8"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="8"
+              x2="8"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="15"
+              y2="17"
+            />
+            <path
+              d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="5"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="1"
+              y2="3"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="4.22"
+              y2="5.64"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="18.36"
+              y2="19.78"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="19.78"
+              y2="18.36"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="5.64"
+              y2="4.22"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17 18a5 5 0 0 0-10 0"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="9"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="10.22"
+              y2="11.64"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="11.64"
+              y2="10.22"
+            />
+            <line
+              x1="23"
+              x2="1"
+              y1="22"
+              y2="22"
+            />
+            <polyline
+              points="8 6 12 2 16 6"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="info"
+      >
+        <p
+          className="info-text"
+        >
+          o3, no2, co2
+        </p>
+        <span>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"
+            />
+          </svg>
+          <svg
+            className="droplet"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    aria-hidden="true"
+    className="card m-3"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    <div
+      className="card-body d-flex justify-content-center card-body-container"
+    >
+      <div>
+        <div
+          className="d-flex align-items-center"
+        >
+          <h3
+            className="card-title"
+          >
+            Kenya
+            ,
+          </h3>
+          <p
+            className="card-subtitle"
+          >
+            East Africa
+          </p>
+        </div>
+        <div
+          className="d-flex icon-container"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"
+            />
+            <polyline
+              points="13 11 9 17 15 17 11 23"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="8"
+              x2="8"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="8"
+              x2="8"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="15"
+              y2="17"
+            />
+            <path
+              d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="5"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="1"
+              y2="3"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="4.22"
+              y2="5.64"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="18.36"
+              y2="19.78"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="19.78"
+              y2="18.36"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="5.64"
+              y2="4.22"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17 18a5 5 0 0 0-10 0"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="9"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="10.22"
+              y2="11.64"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="11.64"
+              y2="10.22"
+            />
+            <line
+              x1="23"
+              x2="1"
+              y1="22"
+              y2="22"
+            />
+            <polyline
+              points="8 6 12 2 16 6"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="info"
+      >
+        <p
+          className="info-text"
+        >
+          o3, no2, co2
+        </p>
+        <span>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"
+            />
+          </svg>
+          <svg
+            className="droplet"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  <div
+    aria-hidden="true"
+    className="card m-3"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+  >
+    <div
+      className="card-body d-flex justify-content-center card-body-container"
+    >
+      <div>
+        <div
+          className="d-flex align-items-center"
+        >
+          <h3
+            className="card-title"
+          >
+            Germany
+            ,
+          </h3>
+          <p
+            className="card-subtitle"
+          >
+            Europe
+          </p>
+        </div>
+        <div
+          className="d-flex icon-container"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"
+            />
+            <polyline
+              points="13 11 9 17 15 17 11 23"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="8"
+              x2="8"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="8"
+              x2="8"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="19"
+              y2="21"
+            />
+            <line
+              x1="16"
+              x2="16"
+              y1="13"
+              y2="15"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="15"
+              y2="17"
+            />
+            <path
+              d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="5"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="1"
+              y2="3"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="21"
+              y2="23"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="4.22"
+              y2="5.64"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="18.36"
+              y2="19.78"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="19.78"
+              y2="18.36"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="5.64"
+              y2="4.22"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
+            />
+          </svg>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17 18a5 5 0 0 0-10 0"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="2"
+              y2="9"
+            />
+            <line
+              x1="4.22"
+              x2="5.64"
+              y1="10.22"
+              y2="11.64"
+            />
+            <line
+              x1="1"
+              x2="3"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="21"
+              x2="23"
+              y1="18"
+              y2="18"
+            />
+            <line
+              x1="18.36"
+              x2="19.78"
+              y1="11.64"
+              y2="10.22"
+            />
+            <line
+              x1="23"
+              x2="1"
+              y1="22"
+              y2="22"
+            />
+            <polyline
+              points="8 6 12 2 16 6"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="info"
+      >
+        <p
+          className="info-text"
+        >
+          o3, no2, co2
+        </p>
+        <span>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"
+            />
+          </svg>
+          <svg
+            className="droplet"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+]
+`;
