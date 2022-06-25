@@ -28,6 +28,6 @@ export const FETCHTHUNK = (id) => async (dispatch, getState) => {
 
     dispatch(FETCH(dataObj));
   } catch (error) {
-    console.log(error);
+    throw new Error(error);
   }
 };
