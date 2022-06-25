@@ -44,6 +44,9 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@ElikplimAmedzro](https://twitter.com/Amedzro-Elikplim)
 - LinkedIn: [Emmanuel Elikplim Amedzro](https://www.linkedin.com/in/emmanuel-elikplim-amedzro-187590125/)
 
+## Acknowlegment
+Design by: **Nelson Sakwa**
+Link: https://www.behance.net/sakwadesignstudio
 
 ## 🤝 Contributing
 
