@@ -3,7 +3,7 @@ const initialState = [
     id: 1, country: 'Ghana', region: 'West Africa', latitude: 5.5571096, longitude: -0.2012376,
   },
   {
-    id: 2, country: 'Nigeria', region: 'West Africa', latitude: 6.4550575, longitude: 3.3941795,
+    id: 2, country: 'Nigeria', region: 'Africa', latitude: 6.4550575, longitude: 3.3941795,
   },
   {
     id: 3, country: 'UK', region: 'Europe', latitude: 51.5073219, longitude: -0.1276474,
