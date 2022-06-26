@@ -9,19 +9,21 @@ function Weather() {
   function navigateToDetails(id) {
     navigate('/weatherdetails', { state: id });
   }
-
   const countries = useSelector((state) => state.countries);
+
   return (
     <>
-      {countries.map((country) => (
-        <Card
-          key={country.id}
-          country={country.country}
-          region={country.region}
-          onClick={() => navigateToDetails(country.id)}
-          onKeyDown={() => navigateToDetails()}
-        />
-      ))}
+      <div className="grid-container">
+        {countries.map((country) => (
+          <Card
+            key={country.id}
+            country={country.country}
+            region={country.region}
+            onClick={() => navigateToDetails(country.id)}
+            onKeyDown={() => navigateToDetails()}
+          />
+        ))}
+      </div>
     </>
   );
 }
