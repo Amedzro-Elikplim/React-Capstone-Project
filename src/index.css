@@ -7,3 +7,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+}

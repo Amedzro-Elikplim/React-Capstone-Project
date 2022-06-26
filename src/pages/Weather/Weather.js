@@ -25,8 +25,12 @@ function Weather() {
   }
 
   return (
-    <div>
-      <input aria-hidden="true" onChange={handleChange} placeholder="Search..." />
+    <div className="search-container">
+      <input
+        aria-hidden="true"
+        onChange={handleChange}
+        placeholder="Search..."
+      />
       <div className="grid-container">
         {countries.map((country) => (
           <Card
