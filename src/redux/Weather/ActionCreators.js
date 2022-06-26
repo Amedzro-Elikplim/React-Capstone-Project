@@ -3,6 +3,7 @@ import WEATHER_API from '../../api.config';
 
 export const FETCH = (data) => ({ type: FETCH_WEATHER, payload: data });
 export const DISPLAY = () => ({ type: DISPLAY_COUNTRIES, payload: null });
+export const FILTER = (data) => ({ type: 'FILTER', payload: data });
 
 export const fetchData = async (latitude, longitude) => {
   const weather = await fetch(WEATHER_API(latitude, longitude));
