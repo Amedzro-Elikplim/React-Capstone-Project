@@ -1,0 +1,32 @@
+body {
+  background-color: aliceblue;
+}
+
+.container-parent {
+  height: 70vh;
+}
+
+.card-container {
+  background-color: white;
+}
+
+.weather-type {
+  font-weight: 200;
+}
+
+.details {
+  margin-top: -18px;
+  color: rgb(143, 143, 143);
+}
+
+.icon-left {
+  zoom: 1.5;
+  margin: 5px;
+  color: gray;
+}
+
+.icon-container {
+  background-color: white;
+  padding: 10px;
+  margin-top: 0;
+}

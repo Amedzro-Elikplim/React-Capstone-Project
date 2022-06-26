@@ -1,0 +1,22 @@
+.nav {
+  padding: 10px;
+  background-color: #7fd2e4;
+  color: white;
+}
+
+.button-toggler {
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.nav-content {
+  padding: 10px;
+}
+
+.item {
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  border-bottom: 1px solid white;
+}
