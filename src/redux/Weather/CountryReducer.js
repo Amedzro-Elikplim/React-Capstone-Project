@@ -18,6 +18,10 @@ const initialState = [
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case 'FILTER':
+      return action.payload;
+    case 'NO_FILTER':
+      return initialState;
     default:
       return state;
   }
