@@ -6,8 +6,6 @@ import {
   FiSun,
   FiCloud,
   FiSunrise,
-  FiThermometer,
-  FiDroplet,
 } from 'react-icons/fi';
 import PropTypes from 'prop-types';
 
@@ -33,13 +31,6 @@ function Card({
             <FiCloud />
             <FiSunrise />
           </div>
-        </div>
-        <div className="info">
-          <p className="info-text">o3, no2, co2</p>
-          <span>
-            <FiThermometer />
-            <FiDroplet className="droplet" />
-          </span>
         </div>
       </div>
     </div>
